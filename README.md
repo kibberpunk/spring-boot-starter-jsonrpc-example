@@ -7,7 +7,7 @@ Sample project to demonstrate [spring-boot-starter-jsonrpc](https://github.com/k
 1. Build project `mvn clean install`
 2. Open project in IDE
 3. Run [Example](/src/main/java/com/kibberpunk/spring/boot/starter/jsonrpc/example/Example.java)
-4. Perform test call totest JSON-RPC
+4. Perform test JSON-RPC call 
    controller [NemesisController](/src/main/java/com/kibberpunk/spring/boot/starter/jsonrpc/example/controller/NemesisController.java)
 
 ```shell
