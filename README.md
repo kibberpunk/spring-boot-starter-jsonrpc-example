@@ -1,4 +1,4 @@
-# Spring Boo Starter JSON-RPC example
+# Spring Boot Starter JSON-RPC example
 
 Sample project to demonstrate [spring-boot-starter-jsonrpc](https://github.com/kibberpunk/spring-boot-starter-jsonrpc)
 
@@ -33,5 +33,11 @@ curl --location 'http://localhost:8080/api' \
   "jsonrpc": "2.0"
 }'
 ```
+
 ## Swagger
-1. Open [Swagger](http://localhost:8080/swagger-ui/index.html)
+
+Swagger configuration has default profile `Swagger`. To start Swagger you need to set `Swagger` profile to run command
+
+and open [Local Swagger URL](http://localhost:8080/swagger-ui/index.html)\
+![example](/images/Run-Debug%20Configurations_001.jpg "Example")
+
