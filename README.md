@@ -37,7 +37,6 @@ curl --location 'http://localhost:8080/api' \
 ## Swagger
 
 Swagger configuration has default profile `Swagger`. To start Swagger you need to set `Swagger` profile to run command
-
 and open [Local Swagger URL](http://localhost:8080/swagger-ui/index.html)\
 ![example](/images/Run-Debug%20Configurations_001.jpg "Example")
 
