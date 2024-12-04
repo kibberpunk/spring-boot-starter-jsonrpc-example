@@ -4,16 +4,10 @@ Sample project to demonstrate [spring-boot-starter-jsonrpc](https://github.com/k
 
 ## Run
 
-1. Download
-2. Build project
-
-```shell
-mvn clean install
-```
-
-3. Open project in IDE
-4. Run [Example](/src/main/java/com/kibberpunk/spring/boot/starter/jsonrpc/example/Example.java)
-5. Perform test call totest JSON-RPC
+1. Build project `mvn clean install`
+2. Open project in IDE
+3. Run [Example](/src/main/java/com/kibberpunk/spring/boot/starter/jsonrpc/example/Example.java)
+4. Perform test call totest JSON-RPC
    controller [NemesisController](/src/main/java/com/kibberpunk/spring/boot/starter/jsonrpc/example/controller/NemesisController.java)
 
 ```shell
@@ -38,5 +32,6 @@ curl --location 'http://localhost:8080/api' \
 
 Swagger configuration has default profile `Swagger`. To start Swagger you need to set `Swagger` profile to run command
 and open [Local Swagger URL](http://localhost:8080/swagger-ui/index.html)\
-![example](/images/Run-Debug%20Configurations_001.jpg "Example")
+![example](/images/Configuration.jpg "example")
+![swagger](/images/Swagger.jpg "swagger")
 
